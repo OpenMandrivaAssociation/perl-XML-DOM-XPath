@@ -18,6 +18,7 @@ BuildRequires:	perl-XML-XPathEngine
 Provides:	perl-libxml-enno
 Obsoletes:	perl-libxml-enno
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 XML::DOM::XPath allows you to use XML::XPath methods to query a DOM. This is
