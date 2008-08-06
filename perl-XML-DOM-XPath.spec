@@ -1,6 +1,6 @@
 %define module	XML-DOM-XPath
 %define version	0.14
-%define release	%mkrel 1
+%define release	%mkrel 2
 
 Summary:	XPath support to XML::DOM, using XML::XPath engine
 Name:		perl-%{module}
