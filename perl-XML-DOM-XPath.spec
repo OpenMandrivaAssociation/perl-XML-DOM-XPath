@@ -16,6 +16,7 @@ Buildrequires:	perl-devel
 %endif
 BuildRequires:	perl-XML-XPath >= 1.13-5mdk
 BuildRequires:	perl-XML-XPathEngine
+BuildRequires:	perl-XML-DOM
 BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}
 Provides:	perl-libxml-enno
