@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 2
+Release:	%mkrel 3
 
 Summary:	XPath support to XML::DOM, using XML::XPath engine
 License:	Artistic
