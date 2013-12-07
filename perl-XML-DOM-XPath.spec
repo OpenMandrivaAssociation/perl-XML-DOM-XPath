@@ -4,7 +4,7 @@
 Summary:	XPath support to XML::DOM, using XML::XPath engine
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	7
+Release:	8
 License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
