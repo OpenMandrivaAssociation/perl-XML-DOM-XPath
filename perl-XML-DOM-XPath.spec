@@ -25,19 +25,19 @@ often much easier than relying only on getElementsByTagName.
 It lets you use all of the XML::DOM methods.
 
 %prep
-%setup -qn %{modname}-%{modver}
+%autosetup -p1 -n %{modname}-%{modver}
 
 %build
-%__perl Makefile.PL INSTALLDIRS=vendor
-%make
+perl Makefile.PL INSTALLDIRS=vendor
+%make_build
 
 %check
 make test
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{perl_vendorlib}/XML
-%{_mandir}/man3/*
+%doc %{_mandir}/man3/*
 
