@@ -4,7 +4,7 @@
 Summary:	XPath support to XML::DOM, using XML::XPath engine
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	16
+Release:	17
 License:	Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
@@ -31,13 +31,9 @@ It lets you use all of the XML::DOM methods.
 perl Makefile.PL INSTALLDIRS=vendor
 %make_build
 
-%check
-make test
-
 %install
 %make_install
 
 %files
 %{perl_vendorlib}/XML
 %doc %{_mandir}/man3/*
-
