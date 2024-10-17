@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	18
 License:	Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
+Url:		https://search.cpan.org/dist/%{modname}
 Source0:	http://search.cpan.org/CPAN/authors/id/M/MI/MIROD/%{modname}-%{modver}.tar.bz2
 BuildArch:	noarch
 BuildRequires:	perl(Test::More)
