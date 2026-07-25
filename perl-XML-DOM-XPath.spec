@@ -3,12 +3,12 @@
 
 Summary:	XPath support to XML::DOM, using XML::XPath engine
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	18
+Version:	%{modver}
+Release:	19
 License:	Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://search.cpan.org/CPAN/authors/id/M/MI/MIROD/%{modname}-%{modver}.tar.bz2
+Url:		https://metacpan.org/dist/XML-DOM-XPath
+Source0:	https://cpan.metacpan.org/authors/id/M/MI/MIROD/XML-DOM-XPath-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Test::More)
